@@ -39,6 +39,7 @@ Now run the following steps to build and test the source:
 ## non-bash shell, then you will have to modify the following
 ## command.
 $ export RUSTFLAGS+="-C target-cpu=native" 
+$ export RUSTFLAGS="-C target-feature=+aes,+ssse3"
 $ cargo build --release
 
 ## Run tets.

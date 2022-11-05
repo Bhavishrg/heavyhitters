@@ -1,8 +1,8 @@
 {
     "data_len": 512,
     "threshold": 0.001,
-    "server0": "0.0.0.0:8000",
-    "server1": "0.0.0.0:8001",
+    "server0": "35.237.29.187:8000",
+    "server1": "34.168.202.152:8000",
     "addkey_batch_size": 100,
     "sketch_batch_size": 100000,
     "sketch_batch_size_last": 25000,
